@@ -7,7 +7,7 @@ TASK_TITLES = [
 ].freeze
 
 TASK_TITLES.each do |title|
-  Task.create(title: title, complete: false)
+  Task.create(title: title)
 end
 
 puts "Seeded #{Task.count} tasks"
