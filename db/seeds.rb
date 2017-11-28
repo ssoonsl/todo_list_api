@@ -1,9 +1,9 @@
 TASK_TITLES = [
-  'Create Angular project',
-  'Run backend webserver',
-  'Write services and component',
-  'Implement styles',
-  'Complete the assignment'
+  'Task 1',
+  'Task 2',
+  'Task 3',
+  'Task 4',
+  'Task 5'
 ].freeze
 
 TASK_TITLES.each do |title|
